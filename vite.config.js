@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
-console.log('vite config js run')
-export default defineConfig({
+import vue from '@vitejs/plugin-vue';
 
+export default defineConfig({
+  plugins: [vue()],
 })
